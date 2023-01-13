@@ -14,6 +14,8 @@
 		04917A332972056D0012343D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04917A322972056D0012343D /* Transaction.swift */; };
 		04917A35297205A80012343D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04917A34297205A80012343D /* Account.swift */; };
 		04917A37297205CC0012343D /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04917A36297205CC0012343D /* TransactionType.swift */; };
+		04917A3A297206800012343D /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04917A39297206800012343D /* TransactionView.swift */; };
+		04917A3C297206EB0012343D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04917A3B297206EB0012343D /* AccountView.swift */; };
 		0CF70FFC4063DECB33F9C6ED /* Pods_MoneyManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3351E3158F6DBEC972D395CA /* Pods_MoneyManager.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		04917A322972056D0012343D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		04917A34297205A80012343D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		04917A36297205CC0012343D /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		04917A39297206800012343D /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		04917A3B297206EB0012343D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		3351E3158F6DBEC972D395CA /* Pods_MoneyManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38907B6D07A7FB31C1546BC7 /* Pods-MoneyManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManager.debug.xcconfig"; path = "Target Support Files/Pods-MoneyManager/Pods-MoneyManager.debug.xcconfig"; sourceTree = "<group>"; };
 		C484E97B43595B9512063788 /* Pods-MoneyManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManager.release.xcconfig"; path = "Target Support Files/Pods-MoneyManager/Pods-MoneyManager.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 		04796F592971F2A0007D5772 /* MoneyManager */ = {
 			isa = PBXGroup;
 			children = (
+				04917A38297206690012343D /* Views */,
 				04917A31297204600012343D /* Models */,
 				04796F5A2971F2A0007D5772 /* MoneyManagerApp.swift */,
 				04796F5C2971F2A0007D5772 /* ContentView.swift */,
@@ -89,6 +94,15 @@
 				04917A36297205CC0012343D /* TransactionType.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		04917A38297206690012343D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04917A39297206800012343D /* TransactionView.swift */,
+				04917A3B297206EB0012343D /* AccountView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		541BF9C6B80A80FFB1F10A11 /* Pods */ = {
@@ -226,7 +240,9 @@
 				04917A37297205CC0012343D /* TransactionType.swift in Sources */,
 				04917A35297205A80012343D /* Account.swift in Sources */,
 				04796F5B2971F2A0007D5772 /* MoneyManagerApp.swift in Sources */,
+				04917A3C297206EB0012343D /* AccountView.swift in Sources */,
 				04917A332972056D0012343D /* Transaction.swift in Sources */,
+				04917A3A297206800012343D /* TransactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
